@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      background-color: #ffffffcc;
+      padding: 25px 40px;
+      border-radius: 12px;
+      color: #007bff;
+      font-size: 28px;
+      text-align: center;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    h1:hover {
+      transform: scale(1.05);
+      color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>The person is : {{result}}</h1>
+</body>
+</html>
